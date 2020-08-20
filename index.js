@@ -7,9 +7,3 @@ function map(arr,func){
     }
     return newArr
 }
-//mapToNoChange  returnsame values of a given array
-function mapToNoChange(array,func){
-  const newArray=[];
-   array.forEach(element =>newArray.push(func(element)));
-   return newArray;
-}
